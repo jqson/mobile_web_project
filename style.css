@@ -1,0 +1,43 @@
+#outer_border {
+    width: 640px;
+    height: 960px;
+    text-align: center;
+    
+    background: #eeeeee;
+}
+
+canvas {
+    border: 1px solid black;
+    background: #dddddd;
+    
+    display: inline-block;
+    vertical-align: top;
+}
+
+#left_container {
+    width: 200px;
+    
+    display: inline-block;
+    vertical-align: top;
+}
+
+#score_board {
+    font-size: 30px;
+    text-align: right;
+}
+
+button {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+    float: top;
+}
+
+#score_list {
+    display: block;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 20px;
+    float: top;
+}

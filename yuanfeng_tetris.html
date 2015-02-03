@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <title>Yuanfeng Tetris</title>
+        <link rel='stylesheet' href='style.css' />
+    </head>
+    <body>
+        <div id='outer_border'>
+            <div id='left_container'>
+                <p>Score</p>
+                <span id='score_board'></span>
+                <div id='button_container'>
+                    <button class='control_button' id='start_button'>Start (S)</button>
+                    <button class='control_button' id='pause_button'>Pause (P)</button>
+                    <button class='control_button' id='end_button'>End (E)</button>
+                    <button class='help_button' id='help_button'>Help</button>
+                </div>
+                <div id='high_score'>
+                    <span id='score_list' rows='10' cols='60'>Loading...</span>
+                </div>
+            </div>
+            
+            <canvas width='300' height='600'></canvas>
+            
+        </div>
+        
+        <script src='main.js'></script>
+        <script src='controller.js'></script>
+        <script src='display.js'></script>
+        
+    </body>
+</html>
