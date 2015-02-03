@@ -1,9 +1,20 @@
+html * {
+    margin: 0;
+    padding: 0;
+}
+
 #outer_border {
-    width: 640px;
-    height: 960px;
+    width: 320px;
+    height: 460px;
+    border: 1px solid black;
     text-align: center;
     
     background: #eeeeee;
+}
+
+#head {
+    font-size: 45px;
+    letter-spacing: 10px;
 }
 
 canvas {
@@ -15,7 +26,7 @@ canvas {
 }
 
 #left_container {
-    width: 200px;
+    width: 100px;
     
     display: inline-block;
     vertical-align: top;
@@ -32,11 +43,12 @@ button {
     margin-right:auto;
     margin-top: 20px;
     float: top;
+    width: 80px;
+    height: 30px;
 }
 
 #score_list {
     display: block;
-    margin-left: 50px;
     margin-right: auto;
     margin-top: 20px;
     float: top;

@@ -1,7 +1,7 @@
 var canvas = document.getElementsByTagName('canvas')[0];
 var scoreBoard = document.getElementById('score_board');
 var ctx = canvas.getContext('2d');
-var W = 300, H = 600;
+var W = 200, H = 400;
 var BLOCK_W = W/COLS, BLOCK_H = H/ROWS;
 
 var colors = [
@@ -15,8 +15,8 @@ function drawBlock(x, y, color) {
     grd.addColorStop(1, color);
     ctx.fillStyle = grd;
     
-    ctx.fillRect(BLOCK_W * x, BLOCK_H * y, BLOCK_W - 1 , BLOCK_H - 1);
-    ctx.strokeRect(BLOCK_W * x, BLOCK_H * y, BLOCK_W - 1 , BLOCK_H - 1);
+    ctx.fillRect(BLOCK_W * x, BLOCK_H * y, BLOCK_W - 1, BLOCK_H - 1);
+    ctx.strokeRect(BLOCK_W * x, BLOCK_H * y, BLOCK_W - 1, BLOCK_H - 1);
 }
 
 
