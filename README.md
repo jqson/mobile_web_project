@@ -1,5 +1,15 @@
 # mobile_web_project
 
+MILESTONE 2
+
+File list:
+ (same as milestone1)
+ 
+Tasks accomplished:
+  Add touch control - ~4hr:
+    Change DOM in controller.js to jQuery.
+    Add touch control using jQuery's touchstart/touchmove/touchend
+
 MILESTONE 1
 
 File list:
