@@ -6,9 +6,14 @@ File list:
  (same as milestone1)
  
 Tasks accomplished:
-  Add touch control - ~4hr:
+ Add touch control - ~4hr:
     Change DOM in controller.js to jQuery.
     Add touch control using jQuery's touchstart/touchmove/touchend
+    Current touch control (have to on canvas):
+    tap/swipe up: rotate
+        swipe down: move down (need optimization)
+        swipe left: move left
+        swipe right: move right
 
 MILESTONE 1
 
