@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+    <title>Yuanfeng Tetris</title>
+	  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimal-ui">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <title>Yuanfeng Tetris</title>
-      <link rel='stylesheet' href='style.css' />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id='outer_border'>
-      <div id='head'>
+    <div id="outer_border">
+      <div id="head">
         <p>TETRIS</p>
       </div> 
-      <div id='left_container'>
+      <div id="left_container">
         <p>Score</p>
-        <span id='score_board'></span>
-        <div id='button_container'>
-          <button class='control_button' id='start_button'>Start (S)</button>
-          <button class='control_button' id='pause_button'>Pause (P)</button>
-          <button class='control_button' id='end_button'>End (E)</button>
-          <button class='help_button' id='help_button'>Help</button>
+        <span id="score_board"></span>
+        <div id="button_container">
+          <button class="control_button" id="start_button">Start (S)</button>
+          <button class="control_button" id="pause_button">Pause (P)</button>
+          <button class="control_button" id="end_button">End (E)</button>
+          <button class="help_button" id="help_button">Help</button>
         </div>
-        <div id='high_score'>
-          <span id='score_list' rows='10' cols='60'>Loading...</span>
+        <div id="high_score">
+          <span id="score_list" rows="10" cols="60">High Score<span>
         </div>
+        <div id="debug">debug area</div>
       </div>
-      <canvas width='200' height='400'></canvas>
+      <canvas width="200" height="400"></canvas>
     </div>
-      <script src='main.js'></script>
-      <script src='controller.js'></script>
-      <script src='display.js'></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+      </script>  
+      <script src="main.js"></script>
+      <script src="controller.js"></script>
+      <script src="display.js"></script>
   </body>
 </html>

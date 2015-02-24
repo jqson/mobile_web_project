@@ -3,10 +3,12 @@ html * {
     padding: 0;
 }
 
+body {
+  max-width: 320px;
+  max-height: 460px;
+}
+
 #outer_border {
-    width: 320px;
-    height: 460px;
-    border: 1px solid black;
     text-align: center;
     
     background: #eeeeee;
