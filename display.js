@@ -1,7 +1,7 @@
 var canvas = document.getElementsByTagName('canvas')[0];
 var scoreBoard = document.getElementById('score_board');
 var ctx = canvas.getContext('2d');
-var W = 200, H = 400;
+var W = 400, H = 800;
 var BLOCK_W = W/COLS, BLOCK_H = H/ROWS;
 
 var colors = [

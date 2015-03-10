@@ -6,23 +6,23 @@ html * {
 }
 
 body {
-  max-width: 320px;
-  max-height: 460px;
+  max-width: 640px;
+  max-height: 920px;
+  font-size: 35px;
 }
 
 #outer_border {
     text-align: center;
-    
     background: #eeeeee;
 }
 
 #head {
-    font-size: 45px;
-    letter-spacing: 10px;
+    font-size: 90px;
+    letter-spacing: 30px;
 }
 
 canvas {
-    border: 1px solid black;
+    border: 2px solid black;
     background: #dddddd;
     
     display: inline-block;
@@ -30,14 +30,14 @@ canvas {
 }
 
 #left_container {
-    width: 100px;
+    width: 200px;
     
     display: inline-block;
     vertical-align: top;
 }
 
 #score_board {
-    font-size: 30px;
+    font-size: 60px;
     text-align: right;
 }
 
@@ -45,15 +45,16 @@ button {
     display: block;
     margin-left:auto;
     margin-right:auto;
-    margin-top: 20px;
+    margin-top: 30px;
     float: top;
-    width: 80px;
-    height: 30px;
+    width: 170px;
+    height: 60px;
+    font-size: 25px
 }
 
 #score_list {
     display: block;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 40px;
     float: top;
 }

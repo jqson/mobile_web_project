@@ -1,4 +1,4 @@
-var TOUCH_SENSITIVITY = 5;
+var TOUCH_SENSITIVITY = 15;
 
 var keys = {
   37: 'left',
