@@ -206,7 +206,7 @@ function newGame() {
     init();
     newShape();
     lose = false;
-    interval = setInterval(move, 300);
+    interval = setInterval(move, 200);
 }
 
 function gameOver() {
